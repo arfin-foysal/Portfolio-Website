@@ -1,0 +1,452 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero-box{
+    height:100vh;
+    background-image: linear-gradient(
+    rgba(26, 29, 27, 0.473),
+    rgba(26, 29, 27, 0.527)) ,url(img/arfin1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    /* background-color:purple; */
+
+    
+}
+.nav-logo img{
+    width: 80px;
+}
+
+.nav-text{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif; 
+    color: yellow;
+}
+
+.nav-manu a{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bolder;
+    color:white;
+}
+.nav-manu a:hover{
+    
+}
+
+.hero-text{
+position: absolute;
+top: 40%;
+left: 5%;
+}
+
+h3{
+    color: yellow;
+    text-transform: capitalize;
+}
+
+.headding{
+    text-transform: capitalize;
+    color: white;
+    font-size: 80px;
+}
+h4{
+    text-transform: capitalize;
+    color: yellow;
+    letter-spacing: 0.1em;
+}
+.new-style{
+font-family:'Mr De Haviland', cursive;
+font-size: 70px;
+color: white;
+font-weight: 400;
+}
+.hero-icon i{
+    color: white;
+    padding-right: 15px;
+    line-height: 4rem;
+    align-items: center;
+    text-align: center;
+
+
+ }
+ .hero-icon i:hover {
+    color: yellow;
+    padding-right: 15px;
+ }
+.hero-icon{
+    font-size: 25px;
+    
+}
+
+
+.about-me{
+    display: flex;
+    padding: 50px;
+
+}
+
+.about-me-left{
+
+    flex-basis: 50%;
+}
+.about-me-left img{
+    width: 400px;
+    border: solid;
+    border-radius: 100px;
+   
+
+}
+.about-me-right{
+
+     flex-basis: 50%;
+     margin: auto;
+}
+.about-me-right > h2{
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+.about-me-right > h3{
+    text-transform: capitalize;
+    color: black;
+    padding-bottom: 4px;
+    font-size: 25px;
+}
+.about-me-right > h4{
+    text-transform: capitalize;
+color: rgb(31, 29, 29);
+padding-bottom: 8px;
+font-size: 15px;
+}
+.about-me-right > p{
+    font-size: 18px;
+    line-height: 02rem;
+}
+
+.button > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+
+.button{
+    margin-top:40px;
+
+}
+
+a.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellow;
+    color:black;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.skill-box{
+
+    display: flex;
+    background-color: #161922;
+
+}
+.skill-left{
+    flex-basis: 50%;
+  text-align: center;
+ margin: auto 30px;
+}
+
+
+
+    .skill-left h2{
+        color: white;
+        text-transform: uppercase;
+        line-height: 05rem;
+    }
+   .skill-left p{
+        color: white;
+        line-height: 02rem;
+    }
+
+.skill-right{
+    flex-basis:50% ;
+
+}
+
+
+.container {
+    width: 500px;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: rgba(54, 126, 223, .5);
+    border-radius: 1000px;
+}
+
+li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    /* background-color: rgba(54, 126, 223, 1); */
+    background: repeating-radial-gradient(rgba(0, 126, 200, 1),
+    rgb(0, 221, 86));
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 95%;
+    }
+}
+
+li.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 90%;
+    }
+}
+
+li.js:after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 80%;
+    }
+}
+
+li.nj:after {
+    animation-name: nj;
+}
+
+@keyframes nj{
+    to {
+        width: 75%;
+    }
+}
+li.rj:after {
+    animation-name: rj;
+}
+
+@keyframes rj{
+    to {
+        width: 70%;
+    }
+}li.wp:after {
+    animation-name: wp;
+}
+
+@keyframes wp{
+    to {
+        width: 80%;
+    }
+}
+
+li.et:after {
+    animation-name: et;
+}
+
+@keyframes et{
+    to {
+        width: 90%;
+    }
+}
+
+.services-heading{
+    text-align: center;
+    margin:50px;
+}
+
+.services-box{
+    display: flex;
+    text-align: center;
+    align-items: stretch;
+    margin: 20px;
+  
+ 
+}
+
+.cird{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 6px 1px 10px 2px rgb(197, 188, 188);
+    border-radius: 10px;
+    flex-basis: 33.33%;
+   
+
+}
+.cird h2{
+    padding: 10px;
+    font-size: 22px;
+}
+.cird p{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.statistics-full{
+    display: flex;
+    justify-content: space-around;
+   
+  
+}
+.statistics{
+    background-color: yellow;
+  padding: 100px 0 80px 0px;
+  margin-top: 50px;}
+
+.text h2{
+    margin-top: 50px;
+}
+
+}.number{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.number h2{
+    font-size: 80px;
+    font-weight: 300px;
+}
+
+.contracts-box{
+    padding: 40px;
+    text-align: center;
+  background-image: linear-gradient(rgba(37, 37, 33, 0.349),rgb(39, 39, 34)) ,url("https://arfinfoysal.com/wp-content/uploads/2020/07/working-man-is-typing-on-black-frame-laptop-3774082-min-scaled.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.contracts-text h2 {
+color: white;
+font-size: 30px;
+}
+
+ input{
+   width: 50%;
+   padding: 10px;
+   margin: 5px;
+ border-radius: 20px;
+ font-size: 15px;
+ border: none;
+ color: yellow;
+ background-color:rgba(0, 0, 0, 0.493);
+ 
+}
+
+textarea{
+   width: 50%;
+   margin: 5px;
+   border-radius: 20px;
+   font-size: 15px;
+   border: none;
+   color: yellow;
+   background-color:rgba(0, 0, 0, 0.493);
+   text-align: unset;
+   
+}
+::placeholder{
+    color: rgb(161, 161, 54);
+    
+
+}
+
+button{
+    padding: 10px 15px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    font-size: 15px;border-radius: 20px;
+    cursor:pointer;
+
+}
+
+.contracts-info{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.info-left {
+    flex-basis: 50%;
+margin: 50px 100px 50px  ;
+}.info-right {
+    flex-basis: 50%;
+}
+.info-right h2{
+
+    font-size: 30px;
+    line-height: 2em;
+}
+.info-right p{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.footer-box{
+    background-color: #161922;
+    text-align: center;
+    padding: 50px;
+}
+.footer-logo img {
+    width: 90px;
+}
+.footer-box h2{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    color: yellow;
+}
+
+.footer-box .hero-icon a{
+    padding: 5px;
+}

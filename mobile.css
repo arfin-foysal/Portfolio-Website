@@ -1,0 +1,75 @@
+@media screen and (max-width: 800px) {
+    body {
+
+    
+
+     
+    
+        
+    }
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+     .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 50%;
+      
+        /* background-color:purple; */
+    }
+    .nav-manu a{
+      
+        /* text-decoration: none;
+        padding: 5px;
+        font-weight: bolder;
+        color: seashell; */
+        display: grid;
+        background-color: gray;
+        padding: 5px;
+        margin: 2px;
+        width: 300px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .nav-manu a:hover {
+    
+        display: grid;
+        background-color: yellow ;
+        color: slategrey;
+        padding: 5px;
+        margin: 2px;
+        width: 300px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+
+    .hero-text{
+        position: absolute;
+        top:55%;
+        left: 5%;
+        }
+        .headding{
+            text-transform: capitalize;
+            color: white;
+            font-size: 60px;}
+
+            .about-me{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .about-me-left img{
+                width: 200px;
+                border: solid;
+                border-radius: 100px;
+               
+  }
+
+ 
+}
